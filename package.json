@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-surge-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "npm run build && surge dist/ --domain https://tailwind-template.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "surge": "^0.23.1",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.2"
+  }
+}
